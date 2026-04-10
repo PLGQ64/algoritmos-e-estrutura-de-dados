@@ -28,7 +28,7 @@ int main(void){
       // o valor aleatorio e atrubido apartir da funcao (rand() % 100) + 1
       // rand gera um valor aleatorio de tamanho aleatorio
       // esse valor e dividio por 100 o que garante que sempre
-      // o resultado da divisao resultara em um valo de 0 a 99
+      // o resto da divisao resultara em um valo de 0 a 99
       // o + 1 faz com que seja de 1 a 100 
       matriz[i][j] = (rand() % 100) + 1;
     }
