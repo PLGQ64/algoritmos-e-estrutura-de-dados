@@ -28,7 +28,7 @@ int main(void){
   }
 
 
-  // a mesmo que o snterior so que agora para a matriz transposta
+  // a mesmo que o anterior so que agora para a matriz transposta
   // com os valores trocados porque é uma matriz transposta
   int **tmatriz = (int**)malloc(colunas * sizeof(int*));
   if(!tmatriz){printf("erro de alocacao da tmatriz"); exit(0);}
