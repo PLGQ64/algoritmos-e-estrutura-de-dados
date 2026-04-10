@@ -27,7 +27,7 @@ int main(void){
   v = (int*)malloc(quantidade_pesoas * sizeof(int));
 
   for(int i = 0; i < quantidade_pesoas; i++){
-    // o nome é alocado em uma na linha i da matriz
+    // o nome é alocado na linha i da matriz
     printf("nome [%d]: ",i);
     scanf("%[^\n]s", &matriz[i][0]);
     getchar();
