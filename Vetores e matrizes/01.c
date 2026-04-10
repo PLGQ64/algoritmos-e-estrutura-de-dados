@@ -5,7 +5,7 @@ int main(void){
   int n;
   printf("tamanho do vetor: ");
   scanf("%d", &n);
-  // o vetor e allocado dianmicamente
+  // o vetor e allocado dinamicamente
   // mesma explicacao da 11 so que agora com um int
   int *v = (int*)malloc(n * sizeof(int));
   // verifica se foi allocada com sucesso
