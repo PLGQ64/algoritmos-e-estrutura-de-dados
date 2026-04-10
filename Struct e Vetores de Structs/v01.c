@@ -13,7 +13,7 @@ struct funcionario {
   char cargo [65];
 };
 
-// como as funcoes foram colocadas depois da funcoa main,
+// como as funcoes foram colocadas depois da funcao main,
 // elas devem ser declaradas aqui
 void formulario(struct funcionario *colaborador);
 void salario(struct funcionario *colaborador);
