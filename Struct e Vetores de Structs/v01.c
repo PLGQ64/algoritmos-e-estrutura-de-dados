@@ -62,8 +62,7 @@ void formulario(struct funcionario *colaborador) {
   // o scanf ao invez de atribuir a string diretamente a struct atribui a variavel nome
   // dai com strncpy a tring nome é copiada no colaborador->nome e o 128 define o limite
   // dai no indice 128 da string é atribuido o caractere \0 para indicar o fim da string
-  // esse processo todo é somente para evitar que ocorra um stouro de buffer
-  // quando o nome é maior que 128 caractes
+  // esse processo todo é somente para evitar que tenha mais de 128 caracteres na string
   // o mesmo se aplica para o cargo
   strncpy(colaborador->nome, nome, 128);
   colaborador->nome[128] = '\0';
